@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica</title>
+</head>
+<body>
+    <h1>Teste de Imagem Dinamica</h1>
+    <p>Aumente e diminua o navegador para ver se funciona</p>
+    <picture>
+        <source media="(max-width:350px)" srcset="imagens/paisagem-p.jpg" type="image/jpg">
+       <source media="(max-width:750px)" srcset="imagens/paisagem-m.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/paisagem-g.jpg" type="image/jpg">
+        <img src="imagens/paisagem-g.jpg" alt="imagem dinamica">
+    </picture>
+    
+</body>
+</html>
