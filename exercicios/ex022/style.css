@@ -10,6 +10,13 @@
     --cor3: red;
 
 }
+
+body{
+    background-color: lightyellow;
+    max-width: 1028px;
+    margin: auto;
+    text-align: center;
+}
 div#q1{
     width: 200px;
     height: 200px;
