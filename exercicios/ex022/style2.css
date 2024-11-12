@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    height: 200px;
+    background-image: url('imagens/wallpaper005.jpg');
+    width: 100%;
+
+}
+main{
+    height: 700px;
+    background-image: url('imagens/wallpaper006.jpg');
+}
