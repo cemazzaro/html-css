@@ -13,7 +13,24 @@
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
         </p>
         <p>
-            <label for=""></label>
+            <label for="imedia">Media</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" value="5" required>
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo</label>
+            <input type="month" name="Mes" id="imes" value="2025-01" required>
+        </p>
+        <p>
+            <label for="idata">Dia da Prova</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="ihora">Horario da Prova</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
