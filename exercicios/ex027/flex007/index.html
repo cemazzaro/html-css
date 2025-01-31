@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div.conteiner{
+            background-color: lightsalmon;
+            
+            display: flex;
+        }
+
+        div.item{
+            background-color: skyblue;
+            border: 1px solid black;
+            text-align: center;
+
+            flex: auto;
+        }
+
+        div.item#i1{
+            order: 5;
+        }
+
+        div.item#i2{
+            
+        }
+
+        div.item#i3{
+            order: -5;
+        }
+
+        div.item#i4{
+            order: 0;
+        }
+
+        div.item#i5{
+            order: 2;
+        }
+
+        div.item#i6{
+            order: 0;
+        }
+
+        div.item#i7{
+            order: -4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo FlexBox</h1>
+    <div class="conteiner">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>
+</body>
+</html>
