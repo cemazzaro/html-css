@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-header,header > nav{
+header{
     flex-flow: column nowrap;
 }
 
@@ -9,8 +9,7 @@ header > h1 {
 }
 nav#menu{
     display: none;
-}
-header > nav > a {
+    flex-flow: column nowrap;
     width: 90vw;
     
 }
@@ -18,11 +17,17 @@ header > nav > a {
 span#burguer {
     width: 90vw;
     background-color: black;
-    display: block;
     text-align: center;
+    display: block;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
 
     cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
